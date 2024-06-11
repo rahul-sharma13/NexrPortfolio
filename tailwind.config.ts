@@ -57,7 +57,7 @@ const config = {
         //   DEFAULT: "hsl(var(--primary))",
         //   foreground: "hsl(var(--primary-foreground))",
         // },
-        primary:"#1c1c22",
+        primary: "#1c1c22",
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
@@ -73,6 +73,10 @@ const config = {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
+        },
+        portColor: {
+          DEFAULT: "#00ff99",
+          hover: "#00e187",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
