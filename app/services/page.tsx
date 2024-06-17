@@ -7,22 +7,17 @@ import { delay, motion } from "framer-motion";
 const services: { num: string; title: string; description: string }[] = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Frontend Development",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
   },
   {
-    num: "01",
-    title: "Web Development",
+    num: "02",
+    title: "Backend Development",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
   },
   {
-    num: "01",
-    title: "Web Development",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
-  },
-  {
-    num: "01",
-    title: "Web Development",
+    num: "03",
+    title: "Ui/Ux Designer",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
   },
 ];

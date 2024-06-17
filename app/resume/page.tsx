@@ -20,6 +20,7 @@ import {
 } from "@/components/ui/tooltip";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
+import Leetcode from "@/components/Leetcode";
 
 // about data
 const about: {
@@ -162,7 +163,6 @@ const Resume = () => {
             <TabsTrigger value="about">About me</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
             <TabsTrigger value="leetcode">Leetcode</TabsTrigger>
-            <TabsTrigger value="github">github</TabsTrigger>
             <TabsTrigger value="education">Education</TabsTrigger>
           </TabsList>
 
@@ -239,7 +239,7 @@ const Resume = () => {
               value="about"
               className="w-full text-center xl:text-left"
             >
-              <div className="felx flex-col gap-[30px]">
+              <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                   {about.description}
@@ -261,9 +261,9 @@ const Resume = () => {
             </TabsContent>
 
             {/* leetcode */}
-            <TabsContent value="leetcode">leetcode</TabsContent>
-            {/* github */}
-            <TabsContent value="github">github</TabsContent>
+            <TabsContent value="leetcode" className="w-full text-center xl:text-left">
+              <Leetcode />
+            </TabsContent>
           </div>
         </Tabs>
       </div>

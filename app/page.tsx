@@ -4,6 +4,7 @@ import { FiDownload } from "react-icons/fi";
 // components
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
+import { Spotlight } from "@/components/ui/Spotlight";
 
 const Home = () => {
   return (
@@ -36,6 +37,10 @@ const Home = () => {
             <Photo />
           </div>
         </div>
+        <Spotlight
+          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
+          fill="white"
+        />
       </div>
     </section>
   );
