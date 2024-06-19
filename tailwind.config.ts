@@ -75,7 +75,7 @@ const config = {
           foreground: "hsl(var(--accent-foreground))",
         },
         portColor: {
-          DEFAULT: "#00ff99",
+          DEFAULT: "#845EC2",
           hover: "#00e187",
         },
         popover: {

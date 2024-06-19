@@ -15,7 +15,7 @@ const Photo = () => {
       >
         {/* image */}
         <motion.div
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+          className="w-[298px] h-[298px] xl:w-[458px] xl:h-[458px] mix-blend-lighten absolute left-5 top-2"
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
@@ -23,7 +23,7 @@ const Photo = () => {
           }}
         >
           <Image
-            src="/assets/photo.png"
+            src="/assets/pic2.png"
             priority
             quality={100}
             fill
@@ -43,7 +43,7 @@ const Photo = () => {
             cx="253"
             cy="253"
             r="250"
-            stroke="#00ff99"
+            stroke="#845EC2"
             strokeWidth="4"
             strokeLinecap="round"
             strokeLinejoin="round"
