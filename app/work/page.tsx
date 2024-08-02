@@ -34,8 +34,8 @@ const projects: {
     description: "A website that provides information about the game Valorant.",
     stack: [{ name: "React" }, { name: "tailwind" }, { name: "firebase" }],
     image: "/assets/work/Screenshot (325).png",
-    live: "https://valoinfo.netlify.app/",
-    github: "https://github.com/rahul-sharma13/ValoInfo",
+    live: "https://valo-info-c.vercel.app/",
+    github: "https://github.com/rahul-sharma13/ValoInfo---FullStack",
   },
   {
     num: "02",
