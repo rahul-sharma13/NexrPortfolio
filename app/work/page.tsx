@@ -29,10 +29,10 @@ const projects: {
 }[] = [
   {
     num: "01",
-    category: "frontend",
+    category: "full stack",
     title: "ValoInfo",
     description: "A website that provides information about the game Valorant.",
-    stack: [{ name: "React" }, { name: "tailwind" }, { name: "firebase" }],
+    stack: [{ name: "MERN" }, { name: "redis" }, { name: "React Query" }],
     image: "/assets/work/Screenshot (325).png",
     live: "https://valo-info-c.vercel.app/",
     github: "https://github.com/rahul-sharma13/ValoInfo---FullStack",
@@ -52,7 +52,7 @@ const projects: {
     category: "frontend",
     title: "DeltechMun",
     description: "College society website worked in a team of 4.",
-    stack: [{ name: "React" }, { name: "Framer Motion" }, { name: "Tailwind" }],
+    stack: [{ name: "React" }, { name: "Framer Motion" }, { name: "PostgresSql" }],
     image: "/assets/work/Screenshot (327).png",
     live: "https://www.deltechmun.in/",
     github: "https://github.com/rahul-sharma13/deltechv2",
