@@ -33,7 +33,7 @@ const about: {
 } = {
   title: "About me",
   description:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium corrupti debitis iure quam.",
+    "Engineering Physics major with a Computer Science minor, currently in my final year at DTU. I have a strong background in full-stack development.",
   info: [
     {
       fieldName: "Name",
@@ -76,7 +76,7 @@ const education: {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
   description:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium corrupti debitis iure quam.",
+    "Currently pursuing a Bachelor's degree in Engineering Physics with a minor in Computer Science at DTU. Expected graduation in 2024, with a focus on software development, data structures, and algorithms.",
   items: [
     {
       institution: "Vaish Model Sr. Sec. School",
@@ -107,7 +107,7 @@ const skills: {
 } = {
   title: "My Skills",
   description:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium corrupti debitis iure quam.",
+    "My projects range from data-driven web applications to dynamic mobile solutions, with expertise in tools like React, Next.js, PostgreSQL, and MongoDB",
   skillList: [
     {
       icon: <FaHtml5 />,
