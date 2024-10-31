@@ -76,7 +76,7 @@ const education: {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
   description:
-    "Currently pursuing a Bachelor's degree in Engineering Physics with a minor in Computer Science at DTU. Expected graduation in 2024, with a focus on software development, data structures, and algorithms.",
+    "Currently pursuing a Bachelor's degree in Engineering Physics with a minor in Computer Science at DTU. Expected graduation in 2025, with a focus on software development, data structures, and algorithms.",
   items: [
     {
       institution: "Vaish Model Sr. Sec. School",
